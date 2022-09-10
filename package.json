@@ -1,0 +1,36 @@
+{
+  "name": "zusd",
+  "version": "1.0.0",
+  "description": "ZUSD is a cryptocurrency pegged to USD algorithmically",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jejimenez/zusd.git"
+  },
+  "author": "jejimenez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jejimenez/zusd/issues"
+  },
+  "homepage": "https://github.com/jejimenez/zusd#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.7.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/buidler": "^1.4.8",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.10.2",
+    "standard": "^17.0.0"
+  }
+}
